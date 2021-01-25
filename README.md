@@ -2,7 +2,7 @@
 
 The project consists of one Global Server (although you could use more than one) and an undetermined amount of Game Servers.
 The client must connect to the Global Server for authentication, then can be routed to a Game Server (each representing one poker table).
-The Global Server follows a thread-ter-user architecture. All communication client -> Game Server is done virtually through the Global Server.
+The Global Server follows a thread-per-user architecture. All communication client -> Game Server is done virtually through the Global Server.
 
 Server-Client communication follows a REST API:
 + Client->Global Server (CSV)
