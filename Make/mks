@@ -1,0 +1,3 @@
+cp user_accounts.db user_accounts_BACKUP.db
+python3 pokerserver.py 5050 173.255.248.17
+
